@@ -1,0 +1,95 @@
+# Site settings
+SEOTitle: 黄永的博客 | Hdy Blog
+title: 酒淋铃诗舞花
+description: "关于前端与设计、黑客与画家 | 黄永，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hdy黄永 的个人博客，与你一起发现更大的世界。"
+keyword: "黄永, Hdy黄永, Hdy, 2life, @hdy, 黄永的博客, Hdy Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品"
+header-img: img/home-bg.jpg
+email: ehdy@qq.com
+url: "http://www.2life.cc"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+# SNS settings
+RSS: false
+weibo_username:     life
+zhihu_username:     life
+github_username:    2life
+twitter_username:  life
+#facebook_username:  life
+#linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: hdyblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "二十岁以后，不滞于物，A,B,C,D,N,J,P皆可编程，自此精修，渐入无代码胜有代码之境。"
+sidebar-avatar: /img/avatar-life.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
+    },{
+        title: "天镶的博客",
+        href: "http://lingyu.wang/"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
+    },{
+        title: "前端神盾局",
+        href: "http://wepiaofei.github.io/blog/"
+    }
+]
