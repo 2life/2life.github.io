@@ -6,7 +6,7 @@ keyword: "黄永, Hdy黄永, Hdy, 2life, @hdy, 黄永的博客, Hdy Blog, 博客
 header-img: img/home-bg.jpg
 email: ehdy@qq.com
 url: "http://www.2life.cc"              # 你的主机 你的绝对路径
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""                             # 例如 '/blog' 那么访问路径为 'host/blog'
 
 
 # SNS settings
